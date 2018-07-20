@@ -1,0 +1,21 @@
+{
+    "name": "snaketooth10k/traffic-light",
+    "description": "A basic finite state machine which controls traffic lights",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William Reynolds",
+            "email": "williamareynolds@icloud.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "FSM\\": "src/"
+        }
+    }
+}
